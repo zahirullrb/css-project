@@ -5,6 +5,7 @@
   <title>Kid Code Playground</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="kidcoding.css">
+
 </head>
 <body>
 
@@ -18,8 +19,9 @@
   <a href="#learn">Learn</a>
   <a href="#examples">Examples</a>
   <a href="#about">About</a>
+  <a href="#Servey">Servey</a>
 </nav>
-<hr>
+
 <div class="section" id="home">
   <h2 class="fun-animation">Hello Young Coder!</h2>
   <p>You're about to start an exciting journey into the world of code!</p>
@@ -28,6 +30,7 @@
 
 <div class="section" id="learn">
   <h2>What is HTML?</h2>
+  <a href="https://www.w3schools.com/html/">Click here to learn more</a>
   <p>HTML is the language that builds websites! You can create headings, text, images, and more.</p>
   <div class="code-box">
 &lt;h1&gt;Hello, World!&lt;/h1&gt;<br>
@@ -58,6 +61,92 @@ h1 {<br>
   👩‍💻👨‍💻 Happy Coding! | Made with ❤️ for kids
   <p>"All Rights Reserved to Zahirul"</p><br>
 </footer>
+<div class="section" id="Servey">
+     <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">Which option best describes you?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Would you recommend Zahirul's kidcoding to a friend?</label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Maybe
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">C#
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Java
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Python
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">JavaScript
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">React
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">Angular
+            </label>
+            <label for="inp-9">
+                <input type="checkbox" name="inp">Django
+            </label>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">Spring
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <!-- Submit Button -->
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</div>
  <h3>Since 2025</h3>
 </body>
 </html>
