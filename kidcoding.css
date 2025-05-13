@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   background: #fdf6e3;
   color: #333;
 }
@@ -10,7 +10,7 @@ header {
   color: #059635;
   padding: 20px 0;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -18,6 +18,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  color: chartreuse;
 }
 
 nav a {
@@ -42,14 +43,14 @@ nav a:hover {
 }
 
 .code-box {
-  background-color: #2d2d2d;
-  color: #00ff99;
+  background-color: hsl(0, 41%, 68%);
+  color: hsl(156, 64%, 8%);
   font-family: monospace;
   padding: 20px;
   border-radius: 10px;
   width: 80%;
   margin: 20px auto;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   white-space: pre-wrap;
   text-align: left;
 }
@@ -62,7 +63,8 @@ nav a:hover {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -71,8 +73,8 @@ nav a:hover {
 }
 
 footer {
-  background: #ffb6c1;
-  color: white;
+  background: hsl(135, 82%, 53%);
+  color: #2e8af3;
   text-align: center;
   padding: 15px;
   margin-top: 40px;
@@ -88,7 +90,21 @@ footer {
     width: 95%;
   }
 }
-h3{
-    text-align: center;
-    color: aquamarine;
+h3 {
+  text-align: center;
+  color: aquamarine;
+}
+nav:hover {
+  background-color: hsl(0, 76%, 75%);
+  color: #a546f3;
+}
+h2:hover {
+  text-decoration: wavy;
+}
+button:active {
+  background-color: pink;
+}
+p:active {
+  font-weight: bold;
+  color: #e93333;
 }
