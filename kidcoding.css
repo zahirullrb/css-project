@@ -1,10 +1,12 @@
 body {
-  margin: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: #333;
-  background-color:rgb(245, 176, 224);
+  background-color:hsl(36, 81%, 69%);
   text-align: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background: hsl(0, 76%, 72%); */
+  color: hwb(313 1% 85%);
 }
+
 
 
 header {
@@ -12,27 +14,28 @@ header {
   color: #059635;
   padding: 20px 0;
   text-align: center;
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav {
-  background: hsl(325, 100%, 86%);
+  background: hwb(355 20% 12%);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  color: chartreuse;
+  color: #4c00ff;
 }
 
 nav a {
   padding: 15px 20px;
   text-decoration: none;
-  color: white;
+  color: #476356;
   font-weight: bold;
   transition: background 0.3s;
 }
 
 nav a:hover {
-  background: #ff85c1;
+  background: #be397c;
 }
 
 .section {
@@ -75,8 +78,8 @@ nav a:hover {
 }
 
 footer {
-  background: hsl(135, 82%, 53%);
-  color: #2e8af3;
+  background: hsl(108, 57%, 43%);
+  color: hwb(23 15% 78%);
   text-align: center;
   padding: 15px;
   margin-top: 40px;
@@ -94,24 +97,23 @@ footer {
 }
 h3 {
   text-align: center;
-  color: aquamarine;
+  color: #e93aa6;
 }
 nav:hover {
-  background-color: hsl(0, 76%, 75%);
+  background-color: lab(68.01% 58.17 -27.77);
   color: #a546f3;
 }
 h2:hover {
   text-decoration: wavy;
 }
 button:active {
-  background-color: pink;
+  background-color: #c0d9ff;
 }
 p:active {
   font-weight: bold;
   color: #e93333;
 }
 
-/* Styling the Form */
 form {
     background-color: #fff;
     max-width: 500px;
@@ -120,23 +122,22 @@ form {
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Styling .form-control */
 .form-control {
     text-align: left;
     margin-bottom: 25px;
 }
 
-/* Styling .form-control label */
+
 .form-control label {
     display: block;
     margin-bottom: 10px;
 }
 
-/* Styling .form-control input, select, textarea */
+
 .form-control input,
 .form-control select,
 .form-control textarea {
-    border: 1px solid #777;
+    border: 1px solid #9c3d3d;
     border-radius: 2px;
     font-family: inherit;
     padding: 10px;
@@ -144,20 +145,73 @@ form {
     width: 95%;
 }
 
-/* Styling Radio button and Checkbox */
 .form-control input[type="radio"],
 .form-control input[type="checkbox"] {
     display: inline-block;
     width: auto;
 }
 
-/* Styling Button */
 button {
     background-color: hsl(330, 68%, 59%);
     border: 1px solid #777;
     border-radius: 2px;
     font-family: inherit;
     font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.programs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+.contact p {
+  margin: 5px 0;
+}
     display: block;
     width: 100%;
     margin-top: 50px;
