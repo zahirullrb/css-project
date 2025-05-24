@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(167, 155, 179);
+   font-size: large;
+    h1{
+        text-align: center;
+        background-color: rgb(122, 170, 11);
+    }
+    h3{
+        background-color: rgb(12, 201, 75);
+    }
+    submit{
+        background-color: chartreuse;
+    }
+    
+
+}
+

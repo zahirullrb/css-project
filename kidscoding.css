@@ -1,0 +1,210 @@
+body {
+  background-color: rgb(238, 228, 202);
+  text-align: center;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hwb(313 1% 85%);
+}
+
+header {
+  background: hsl(234, 80%, 50%);
+  color: #059635;
+  padding: 20px 0;
+  text-align: center;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  background: hwb(355 20% 12%);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #4c00ff;
+}
+
+nav a {
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #476356;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: hsl(81, 77%, 58%);
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section:nth-child(even) {
+  background: #f0f8ff;
+}
+
+.code-box {
+  background-color: hsl(0, 41%, 68%);
+  color: hsl(156, 64%, 8%);
+  font-family: monospace;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+.fun-animation {
+  animation: bounce 2s infinite;
+  display: inline-block;
+  font-size: 2em;
+  color: rgb(187, 17, 96);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+footer {
+  background: hsl(108, 57%, 43%);
+  color: hwb(23 15% 78%);
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .code-box {
+    width: 95%;
+  }
+}
+h3 {
+  text-align: center;
+  color: hsl(251, 89%, 52%);
+}
+nav:hover {
+  background-color: lab(68.01% 58.17 -27.77);
+  color: #a546f3;
+}
+h2:hover {
+  text-decoration: wavy;
+}
+button:active {
+  background-color: #c0d9ff;
+}
+p:active {
+  font-weight: bold;
+  color: #f1b7b7;
+}
+
+form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid #9c3d3d;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+button {
+  background-color: lab(58.88% 25.22 -57.41);
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.programs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #c8f581;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  color: lab(46.62% 43.8 54.95);
+  transform: translateY(-5px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: hsl(201, 92%, 49%);
+}
+
+.contact p {
+  margin: 5px 0;
+}

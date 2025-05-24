@@ -1,0 +1,14 @@
+nav{
+    
+  background: lab(62.07% 46.19 15.99);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: hsl(259, 75%, 16%);
+}
+
+div{
+  text-align: center;
+  color: rgb(3, 27, 27);
+  background-color: rgb(233, 198, 227);
+}
