@@ -1,0 +1,31 @@
+
+   .outer-div {
+      height: 200px;
+      width: 70px;
+      border: 2px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 5px 0;
+    }
+
+    .circle {
+      height: 50px;
+      width: 50px;
+      border: 2px solid black;
+      border-radius: 50%;
+      margin: 10px 0;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .green {
+      background-color: green;
+    }
